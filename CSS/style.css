@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100&family=Noto+Sans+JP:wght@100&family=Open+Sans:wght@800&family=Rethink+Sans:wght@800&display=swap');
+body{
+    display: block;
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    background-image: url(../Images/IN-en-20231211-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    background-repeat: no-repeat;
+    background-size: 1920px 1060px;
+    background-position: -195px -270px;
+    box-sizing: border-box;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 70%);
+}
+
+.logo{
+    position: absolute;
+    display: inline-block;
+    top: 0;
+    left: 0;
+}
+
+.logo img{
+    display: block;
+    width: 180px;
+    height: 105px;
+    margin-left: 160px;
+    margin-top: -11px;
+}
+
+.buttons{
+    position: absolute;
+    display: block;
+    top: 28px;
+    left: 1120px;
+}
+
+.b1{
+    padding: 0;
+    margin: 0;
+    width: 125px;
+    background: transparent;
+    border: 1px solid rgb(80, 80, 80);
+    color: white;
+    border-radius: 5px;
+    background-color: rgba(64, 64, 64, 0.2);
+    height: 33px;
+    font-size: 15px;
+}
+
+.material-symbols-outlined{
+    color: white;
+    display: inline-block;
+}
+
+#s1{
+    position: absolute;
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
+    left: 13px;
+    top: 9px;
+}
+
+#s2{
+    position: absolute;
+    font-size: 18px;
+    padding: 0;
+    margin: 0;
+    left: 95px;
+    top: 8px;
+}
+
+.b2{
+    padding: 0;
+    margin: 0;
+    height: 33px;
+    width: 75px;
+    margin-left: 20px;
+    border-radius: 5px;
+    background-color: #E50914;
+    border: none;
+    color: white;
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+.center{
+    position: absolute;
+    display: inline-block;
+}
+
+#c1{
+    position: absolute;
+    display: inline-block;
+    color: white;
+    font-size: 48px;
+    font-weight: 900;
+    width: 1100px;
+    text-align: center;
+    left: 235px;
+    top: 245px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#c2{
+    position: absolute;
+    display: inline-block;
+    color: white;
+    font-size: 24px;
+    font-weight: 800;
+    font-family: 'Heebo', sans-serif;
+    width: 285px;
+    left: 640px;
+    top: 400px;
+}
+
+#c3{
+    position: absolute;
+    display: inline-block;
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
+    font-family: 'Heebo', sans-serif;
+    width: 615px;
+    left: 465px;
+    top: 460px;
+}
+
+.input{
+    position: absolute;
+    display: inline-block;
+}
+
+.email{
+    position: absolute;
+    display: inline-block;
+    width: 370px;
+    height: 50px;
+    border-radius: 5px;
+    background: transparent;
+    background-color: rgba(28, 28, 28, 0.8);
+    border: 1px solid rgb(80, 80, 80);
+    left: 480px;
+    top: 500px;
+}
+
+::placeholder {
+    padding-left: 12px;
+    color: rgb(201, 201, 201);
+    opacity: 1;
+    font-size: 15px;
+} 
+
+.b3{
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    height: 53px;
+    width: 205px;
+    left: 865px;
+    top: 500px;
+    border-radius: 5px;
+    background-color: #E50914;
+    border: 1px solid #E50914;
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.b3:hover{
+    cursor: pointer;
+    background-color: #c81720;
+    border: 1px solid #c81720;
+}
+
+.b2:hover{
+    cursor: pointer;
+    background-color: #c81720;
+    border: 1px solid #c81720;
+}
